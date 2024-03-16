@@ -1,0 +1,43 @@
+import numpy as np
+
+# 1. Create an array of all even integers from 30 to 70
+even_integers = np.arange(30, 71, 2)
+
+# 2. Generate an array of 15 random numbers from a standard normal distribution
+random_numbers = np.random.randn(15)
+
+# 3. Compute the cross-product of two vectors
+vector_a = np.array([1, 2, 3])
+vector_b = np.array([4, 5, 6])
+cross_product = np.cross(vector_a, vector_b)
+
+# 4. Compute the determinant of a matrix
+matrix = np.array([[4, 2], [3, 1]])
+determinant = np.linalg.det(matrix)
+
+# 5. Create a 3x3x3 array with random values
+random_array_3x3x3 = np.random.random((3, 3, 3))
+
+# 6. Create a 5x5 array with random values and find the minimum and maximum values
+random_array_5x5 = np.random.random((5, 5))
+min_value = random_array_5x5.min()
+max_value = random_array_5x5.max()
+
+# 7. Compute the mean, standard deviation, and variance of a given array along the second axis
+sample_array = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+mean = np.mean(sample_array, axis=1)
+std_dev = np.std(sample_array, axis=1)
+variance = np.var(sample_array, axis=1)
+
+# Display the results
+print("Even integers from 30 to 70:", even_integers)
+print("15 random numbers from a standard normal distribution:", random_numbers)
+print("Cross product of vector_a and vector_b:", cross_product)
+print("Determinant of the matrix:", determinant)
+print("3x3x3 array with random values:\n", random_array_3x3x3)
+print("5x5 array with random values:\n", random_array_5x5)
+print("Minimum value:", min_value)
+print("Maximum value:", max_value)
+print("Mean of each row:", mean)
+print("Standard deviation of each row:", std_dev)
+print("Variance of each row:", variance)
