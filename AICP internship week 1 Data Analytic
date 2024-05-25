@@ -1,3 +1,13 @@
+
+
+
+My code of modication:
+
+int a=3,b=2;
+cout<<"a+b: "<<a+b<<endl;
+
+
+
 import numpy as np
 
 # 1. Create an array of all even integers from 30 to 70
