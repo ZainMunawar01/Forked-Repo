@@ -8,6 +8,7 @@ cout<<"a+b: "<<a+b<<endl;
 cout<<"a-b:" <<a-b<<endl;
 cout<<"a*b: "<<a*b<<endl;
 cout<<"a/b: "<<a/b<<endl;
+cout<<"a%n: "<<a%b<<endl;
 
 
 import numpy as np
